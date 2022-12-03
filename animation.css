@@ -1,0 +1,31 @@
+html,body{
+    background-color: #000;
+    overflow: hidden;
+}
+.div1{
+    margin-top: 500px;
+    margin-left: 200px;
+    height: 500px;
+}
+.load{
+    margin: 155px auto;
+}
+span{
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 131, 253);
+    border-radius: 50%;
+    display: block;
+    margin-left: 30px;
+    box-shadow: 30px 30px 20px 2px rgb(22, 255, 255);
+    -webkit-animation: rotate 10s linear infinite;
+    animation: rotate 10s linear infinite;
+}
+@keyframes rotate{
+    from{
+        -webkit-transform: rotateZ(360deg);
+    }
+    to{
+        -webkit-transform: rotateZ(0deg);
+    }
+}
